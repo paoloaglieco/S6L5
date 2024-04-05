@@ -1,0 +1,8 @@
+XSS Stored:
+
+Visto che la pagina web permette l'inserimento di commenti ma senza fare filtro e sanitizzare l'input dell'utente, se si inserisce uno script nel form del commento esso verrà eseguito consentendo pure l'invio in remoto dei cookie ad un attaccante.
+
+SQLi:
+
+
+Dal php della pagina si nota che il programmatore accetta input della query dinamica senza sanitizzare l'input si possono eseguire delle query non desiderate che portano ad un data breach.
